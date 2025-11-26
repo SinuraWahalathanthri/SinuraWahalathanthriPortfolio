@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "title": "DK Products E-Commerce Website",
+            "image": "../assets/images/Sample Image.png",
+      "description": "Built a conceptual e-commerce website for the brand DK Products using modern web technologies.",
+      "tags": ["HTML", "CSS", "JavaScript", "React"],
+      "blogId": "dk-products"
+    },
+    {
+      "title": "HeyBuddy Chat Application",
+            "image": "../assets/images/Sample Image.png",
+      "description": "A React-based chat application enabling real-time messaging and user interactions.",
+      "tags": ["React", "Node.js", "Firebase", "WebSocket"],
+      "blogId": "heybuddy"
+    },
+    {
+      "title": "Lifeline Mental Health App",
+      "image": "../assets/images/Sample Image.png",
+      "description": "A mental health application developed in collaboration with Tecxa, focused on providing support for schools and workplaces.",
+      "tags": ["React Native", "React", "Node.js", "Tailwind CSS"],
+      "blogId": "lifeline"
+    },
+    {
+      "title": "NASA Space Apps Challenge Weather App",
+            "image": "../assets/images/Sample Image.png",
+      "description": "A React weather app for NASA Space Apps Challenge Colombo 2025. Predicts weather up to 3 years. Won 1st place and became a global nominee.",
+      "tags": ["React", "API", "Forecasting", "Data Visualization"],
+      "blogId": "nasa-weather"
+    },
+    {
+      "title": "SMART POS System",
+            "image": "../assets/images/Sample Image.png",
+      "description": "Point-of-sale system for a spice-selling company developed using Java Swing and MySQL.",
+      "tags": ["Java Swing", "MySQL", "OOP"],
+      "blogId": "smart-pos"
+    },
+    {
+      "title": "Montessori Static Website",
+            "image": "../assets/images/Sample Image.png",
+      "description": "A simple static website for a Montessori school showcasing information and services.",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "blogId": "montessori"
+    },
+    {
+      "title": "UniLink University App",
+            "image": "../assets/images/Sample Image.png",
+      "description": "University app to schedule personal lectures with lecturers, similar to WhatsApp but tailored for university scenarios. Includes a React web app to manage actions and users.",
+      "tags": ["React", "Node.js", "Firebase", "UI/UX"],
+      "blogId": "unilink"
+    },
+    {
+      "title": "Smart Drone Pod App",
+            "image": "../assets/images/Sample Image.png",
+      "description": "Group research project led by me with 8 team members. Developed an app to control and manage smart drone pods for research purposes.",
+      "tags": ["React", "Node.js", "IoT", "Team Leadership"],
+      "blogId": "smart-drone"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "experience": [
+    {
+      "year": "2021 — Present",
+      "title": "BSc (Hons) Software Engineering Student",
+      "description": "Started my BSc (Hons) Software Engineering degree in 2021 and I am continuing it to this day. I have been focusing on full-stack development, software architecture, and modern web technologies.",
+      "tags": ["Java", "JavaScript", "React", "Node.js", "PHP"]
+    },
+    {
+      "year": "2023 — 2025",
+      "title": "Research & Development Engineer — Tecxa",
+      "description": "Worked in the research team at Tecxa, developing mental healthcare applications for schools and workplaces. Contributed to UI/UX, mobile development, API integration, and system design.",
+      "tags": ["React Native", "React", "Node.js", "Tailwind CSS"]
+    },
+    {
+      "year": "2025 — Present",
+      "title": "MPhil Research Student",
+      "description": "Started my MPhil in 2025, focusing on cybersecurity, artificial intelligence, and immersive systems development.",
+      "tags": ["Cybersecurity", "AI", "Unity"]
+    },
+    {
+      "year": "2025 — Present",
+      "title": "Hack Club Sri Lanka — Club Leader",
+      "description": "Serving as a Hack Club Sri Lanka leader, guiding students in programming, ethical hacking, open-source development, and technical leadership.",
+      "tags": ["Leadership", "Community", "Mentoring"]
+    }
+  ]
+}

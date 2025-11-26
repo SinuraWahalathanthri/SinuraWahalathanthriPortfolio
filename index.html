@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sinura Wahalathanthri | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+
+<body>
+    <canvas id="gradient-canvas"></canvas>
+
+    <div class="container">
+        <div class="header">
+            <div>
+                <img src="./assets/images/profile.jpg" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 100px; margin-bottom: 10px;"/>
+                <h1>Sinura Wahalathanthri</h1>
+                <h2>Software Engineer</h2>
+                <p>I'm a 14-year-old software engineer pursuing a BCS Honours degree in Software Engineering at
+                    Birmingham City University.</p>
+
+                <nav class="nav">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                </nav>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+            </div>
+
+            
+
+        </div>
+        <div class="content">
+
+            <section id="about" class="section">
+                <h3>About</h3>
+                <p>I'm a passionate software engineer who started coding at a young age. Currently pursuing my degree in
+                    Software Engineering at Birmingham City University.</p>
+                <p>My main focus these days is learning full-stack development, building performant applications, and
+                    exploring AI.</p>
+                <p>Outside coding, I'm learning new tech, gaming, or building personal projects.</p>
+            </section>
+
+            <section id="experience" class="section">
+                <h3>Experience</h3>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-time">2024 — Present</div>
+                        <div class="card-content">
+                            <div class="card-title">Software Engineering Student</div>
+                            <div class="card-description">Currently pursuing a BCS Honours degree at BCU.</div>
+                            <div class="tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">Java</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-time">2023 — 2024</div>
+                        <div class="card-content">
+                            <div class="card-title">Freelance Developer</div>
+                            <div class="card-description">Built custom websites and solutions for clients.</div>
+                            <div class="tags">
+                                <span class="tag">HTML & CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">WordPress</span>
+                                <span class="tag">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="projects" class="section">
+                <h3>Projects</h3>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://via.placeholder.com/200x120/1e293b/5eead4?text=Spotify+App"
+                            alt="Spotify App" />
+                        <div class="card-content">
+                            <div class="card-title">Spotify Connected App</div>
+                            <div class="card-description">Web app using Spotify Web API.</div>
+                            <div class="tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Express</span>
+                                <span class="tag">Spotify API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        const canvas = document.getElementById("gradient-canvas");
+        const ctx = canvas.getContext("2d");
+
+        let mouseX = 0, mouseY = 0, targetX = 0, targetY = 0;
+
+        function resizeCanvas() {
+            canvas.width = innerWidth;
+            canvas.height = innerHeight;
+        }
+        resizeCanvas();
+        addEventListener("resize", resizeCanvas);
+
+        document.addEventListener("mousemove", e => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+
+        function animate() {
+            targetX += (mouseX - targetX) * 0.1;
+            targetY += (mouseY - targetY) * 0.1;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            const g = ctx.createRadialGradient(targetX, targetY, 0, targetX, targetY, 600);
+            g.addColorStop(0, "rgba(94,234,212,.15)");
+            g.addColorStop(0.5, "rgba(59,130,246,.08)");
+            g.addColorStop(1, "rgba(15,23,42,0)");
+            ctx.fillStyle = g;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            requestAnimationFrame(animate);
+        }
+        animate();
+    </script>
+
+
+    <div id="project-popup" class="popup">
+        <div class="popup-content">
+            <span class="popup-close">&times;</span>
+    
+            <h2 id="popup-title"></h2>
+            <img id="popup-image" />
+    
+            <div id="popup-body" class="markdown-body"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

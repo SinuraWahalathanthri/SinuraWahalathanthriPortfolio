@@ -1,0 +1,44 @@
+{
+  "blogs": [
+    {
+      "id": "dk-products",
+      "title": "DK Products E-Commerce Website",
+      "content": "### DK Products E-Commerce Website\n\nI built a conceptual e-commerce website for a brand called DK Products. The website includes product listings, categories, a shopping cart, and a checkout interface. This project helped me practice modern frontend development and user experience design.\n\n**Technologies:** HTML, CSS, JavaScript, React"
+    },
+    {
+      "id": "heybuddy",
+      "title": "HeyBuddy Chat Application",
+      "content": "### HeyBuddy Chat Application\n\nHeyBuddy is a React-based chat application that allows real-time messaging between users. I implemented real-time notifications, message storage, and a responsive UI.\n\n**Technologies:** React, Node.js, Firebase, WebSocket"
+    },
+    {
+      "id": "lifeline",
+      "title": "Lifeline Mental Health App",
+      "content": "### Lifeline Mental Health App\n\nDeveloped with Tecxa, Lifeline is a mental health app aimed at supporting schools and workplaces. It includes mood tracking, counseling resources, and reminders for mental wellness activities.\n\n**Technologies:** React Native, React, Node.js, Tailwind CSS"
+    },
+    {
+      "id": "nasa-weather",
+      "title": "NASA Space Apps Challenge Weather App",
+      "content": "### NASA Space Apps Challenge Weather App\n\nCreated a weather app for the NASA Space Apps Challenge Colombo 2025. The app predicts weather up to 3 years ahead using advanced algorithms and APIs. We won 1st place and became global nominees.\n\n**Technologies:** React, API, Forecasting, Data Visualization"
+    },
+    {
+      "id": "smart-pos",
+      "title": "SMART POS System",
+      "content": "### SMART POS System\n\nDeveloped a point-of-sale system for a spice-selling company using Java Swing and MySQL. The system handles sales, inventory management, and report generation.\n\n**Technologies:** Java Swing, MySQL, OOP"
+    },
+    {
+      "id": "montessori",
+      "title": "Montessori Static Website",
+      "content": "### Montessori Static Website\n\nBuilt a static website for a Montessori school showcasing services, staff, and enrollment information. Focused on clean UI and responsive design.\n\n**Technologies:** HTML, CSS, JavaScript"
+    },
+    {
+      "id": "unilink",
+      "title": "UniLink University App",
+      "content": "### UniLink University App\n\nUniLink allows students to schedule personal lectures with lecturers and communicate through a WhatsApp-like interface for university scenarios. Also includes a React web app for admin to manage users and schedules.\n\n**Technologies:** React, Node.js, Firebase, UI/UX"
+    },
+    {
+      "id": "smart-drone",
+      "title": "Smart Drone Pod App",
+      "content": "### Smart Drone Pod App\n\nLed a group of 8 members to create an app for managing smart drone pods as part of a research project in our degree program. The app includes monitoring, scheduling, and data analytics for drones.\n\n**Technologies:** React, Node.js, IoT, Team Leadership"
+    }
+  ]
+}
