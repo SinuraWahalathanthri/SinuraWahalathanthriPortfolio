@@ -1,0 +1,36 @@
+{
+  "achievements": [
+    {
+      "year": "2025",
+      "title": "NASA Space Apps Challenge Colombo 2025 Global Nominee",
+      "description": "Won 1st place in the local hackathon for building an wheather focasting app that could predict upto 2yrs.",
+      "tags": ["Hackathon", "NASA", "Global Nominee"],
+      "easterEgg": "nasa",
+      "image": "./assets/images/achievements/nasa.jpeg"
+    },
+    {
+      "year": "2025",
+      "title": "NASA Space Apps Challenge Colombo 2025 Global Finalist",
+      "description": "Became one of the Global Finalist from over 1290+ projects.",
+      "tags": ["Hackathon", "NASA", "Global Finalist"],
+      "easterEgg": "rocket",
+      "image": "./assets/images/achievements/globalnominee.png"
+    },
+    {
+      "year": "2025",
+      "title": "Hacktivate 2025 By NSBM",
+      "description": "Won 1st place at the Hacktivate 2025 hackathon for building a univercity social media app.",
+      "tags": ["Award", "Hackathon", "NSBM"],
+      "easterEgg": "confetti",
+      "image": "./assets/images/achievements/hacktivate.jpeg"
+    },
+    {
+      "year": "2025",
+      "title": "Java Institute Hackathon 2025 - IoT Research Project",
+      "description": "Made a smart drone landing pod for highrise buildings for drone delivery.",
+      "tags": ["Research", "IoT", "Hackathon"],
+      "easterEgg": "nasa",
+      "image": "./assets/images/achievements/java.png"
+    }
+  ]
+}

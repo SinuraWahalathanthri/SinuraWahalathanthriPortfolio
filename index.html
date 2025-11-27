@@ -17,7 +17,8 @@
     <div class="container">
         <div class="header">
             <div>
-                <img src="./assets/images/profile.jpg" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 100px; margin-bottom: 10px;"/>
+                <img src="./assets/images/profile.jpg" alt="Profile Picture"
+                    style="width: 200px; height: 200px; border-radius: 100px; margin-bottom: 10px;" />
                 <h1>Sinura Wahalathanthri</h1>
                 <h2>Software Engineer</h2>
                 <p>I'm a 14-year-old software engineer pursuing a BCS Honours degree in Software Engineering at
@@ -26,6 +27,7 @@
                 <nav class="nav">
                     <a href="#about">About</a>
                     <a href="#experience">Experience</a>
+                    <a href="#achievements">Achievements</a>
                     <a href="#projects">Projects</a>
                 </nav>
             </div>
@@ -42,18 +44,20 @@
                 </a>
             </div>
 
-            
-
         </div>
         <div class="content">
 
             <section id="about" class="section">
                 <h3>About</h3>
-                <p>I'm a passionate software engineer who started coding at a young age. Currently pursuing my degree in
-                    Software Engineering at Birmingham City University.</p>
-                <p>My main focus these days is learning full-stack development, building performant applications, and
-                    exploring AI.</p>
-                <p>Outside coding, I'm learning new tech, gaming, or building personal projects.</p>
+                <div>
+                    <p>I'm a passionate software engineer who started coding at a young age. Currently pursuing my
+                        degree in
+                        Software Engineering at Birmingham City University.</p>
+                    <p>My main focus these days is learning full-stack development, building performant applications,
+                        and
+                        exploring AI.</p>
+                    <p>Outside coding, I'm learning new tech, gaming, or building personal projects.</p>
+                </div>
             </section>
 
             <section id="experience" class="section">
@@ -94,6 +98,10 @@
 
             </section>
 
+            <section id="achievements" class="section">
+                <h3>Achievements</h3>
+            </section>
+
             <section id="projects" class="section">
                 <h3>Projects</h3>
 
@@ -117,6 +125,8 @@
         </div>
 
     </div>
+
+    <canvas id="easter-egg-canvas"></canvas>
 
     <script src="js/script.js"></script>
 
@@ -159,10 +169,10 @@
     <div id="project-popup" class="popup">
         <div class="popup-content">
             <span class="popup-close">&times;</span>
-    
+
             <h2 id="popup-title"></h2>
             <img id="popup-image" />
-    
+
             <div id="popup-body" class="markdown-body"></div>
         </div>
     </div>
