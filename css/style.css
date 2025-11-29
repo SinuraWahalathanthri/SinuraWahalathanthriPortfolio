@@ -46,7 +46,8 @@ body {
   opacity: 0;
   transform: translate(-50%, -50%) scale(0.8);
   transition: opacity 0.3s ease, transform 0.3s ease;
-  filter: drop-shadow(0 0 25px rgba(94, 234, 212, 0.7)) drop-shadow(0 0 50px rgba(94, 234, 212, 0.4));
+  filter: drop-shadow(0 0 25px rgba(94, 234, 212, 0.7))
+    drop-shadow(0 0 50px rgba(94, 234, 212, 0.4));
   animation: float 3s ease-in-out infinite;
   border-radius: 20px;
   overflow: hidden;
@@ -67,8 +68,13 @@ body {
 }
 
 @keyframes float {
-  0%, 100% { transform: translate(-50%, -50%) translateY(0px) rotate(0deg); }
-  50% { transform: translate(-50%, -50%) translateY(-10px) rotate(5deg); }
+  0%,
+  100% {
+    transform: translate(-50%, -50%) translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-10px) rotate(5deg);
+  }
 }
 
 .container {
@@ -183,7 +189,6 @@ body {
   background-color: #e2e8f0;
 }
 
-
 .social-links {
   display: flex;
   gap: 15px;
@@ -270,10 +275,12 @@ body {
 }
 
 .achievement-card[data-easter-egg="nasa"]:hover {
-  background: linear-gradient(135deg, rgba(94, 234, 212, 0.08) 0%, rgba(59, 130, 246, 0.08) 100%);
-  box-shadow: 
-    0 0 30px rgba(94, 234, 212, 0.4), 
-    0 0 60px rgba(59, 130, 246, 0.3),
+  background: linear-gradient(
+    135deg,
+    rgba(94, 234, 212, 0.08) 0%,
+    rgba(59, 130, 246, 0.08) 100%
+  );
+  box-shadow: 0 0 30px rgba(94, 234, 212, 0.4), 0 0 60px rgba(59, 130, 246, 0.3),
     inset 0 0 20px rgba(94, 234, 212, 0.1);
   animation: nasaPulse 2s infinite;
   transform: translateY(-4px);
@@ -281,27 +288,32 @@ body {
 
 .achievement-card[data-easter-egg="nasa"]:hover::after {
   opacity: 1;
-  background: linear-gradient(135deg, rgba(94, 234, 212, 0.2), rgba(59, 130, 246, 0.2));
+  background: linear-gradient(
+    135deg,
+    rgba(94, 234, 212, 0.2),
+    rgba(59, 130, 246, 0.2)
+  );
   animation: borderGlow 2s infinite;
 }
 
 .achievement-card[data-easter-egg="rocket"]:hover {
   animation: rocketShake 0.5s ease-in-out;
-  box-shadow: 
-    0 0 25px rgba(255, 100, 100, 0.4),
+  box-shadow: 0 0 25px rgba(255, 100, 100, 0.4),
     0 10px 30px rgba(255, 100, 100, 0.2);
   transform: translateY(-4px);
 }
 
 .achievement-card[data-easter-egg="rocket"]:hover::after {
   opacity: 1;
-  background: linear-gradient(135deg, rgba(255, 100, 100, 0.3), rgba(255, 150, 50, 0.3));
+  background: linear-gradient(
+    135deg,
+    rgba(255, 100, 100, 0.3),
+    rgba(255, 150, 50, 0.3)
+  );
 }
 
 .achievement-card[data-easter-egg="stars"]:hover {
-  box-shadow: 
-    0 0 30px rgba(255, 215, 0, 0.5),
-    0 0 50px rgba(255, 215, 0, 0.3),
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.5), 0 0 50px rgba(255, 215, 0, 0.3),
     inset 0 0 20px rgba(255, 215, 0, 0.1);
   animation: starTwinkle 1s infinite;
   transform: translateY(-4px);
@@ -309,26 +321,39 @@ body {
 
 .achievement-card[data-easter-egg="stars"]:hover::after {
   opacity: 1;
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.3), rgba(255, 223, 100, 0.3));
+  background: linear-gradient(
+    135deg,
+    rgba(255, 215, 0, 0.3),
+    rgba(255, 223, 100, 0.3)
+  );
   animation: starRotate 3s linear infinite;
 }
 
 .achievement-card[data-easter-egg="confetti"]:hover {
   animation: confettiBounce 0.6s ease-in-out;
-  box-shadow: 
-    0 0 20px rgba(251, 146, 60, 0.4),
+  box-shadow: 0 0 20px rgba(251, 146, 60, 0.4),
     0 0 40px rgba(244, 114, 182, 0.3);
-  background: linear-gradient(135deg, rgba(94, 234, 212, 0.05), rgba(244, 114, 182, 0.05));
+  background: linear-gradient(
+    135deg,
+    rgba(94, 234, 212, 0.05),
+    rgba(244, 114, 182, 0.05)
+  );
   transform: translateY(-4px);
 }
 
 .achievement-card[data-easter-egg="confetti"]:hover::after {
   opacity: 1;
-  background: linear-gradient(135deg, rgba(251, 146, 60, 0.3), rgba(244, 114, 182, 0.3), rgba(167, 139, 250, 0.3));
+  background: linear-gradient(
+    135deg,
+    rgba(251, 146, 60, 0.3),
+    rgba(244, 114, 182, 0.3),
+    rgba(167, 139, 250, 0.3)
+  );
 }
 
 @keyframes nasaPulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(-4px) scale(1);
   }
   50% {
@@ -337,7 +362,8 @@ body {
 }
 
 @keyframes borderGlow {
-  0%, 100% {
+  0%,
+  100% {
     filter: brightness(1);
   }
   50% {
@@ -346,39 +372,74 @@ body {
 }
 
 @keyframes rocketShake {
-  0%, 100% { transform: translateX(0) translateY(-4px) rotate(0deg); }
-  10% { transform: translateX(-4px) translateY(-4px) rotate(-1deg); }
-  20% { transform: translateX(4px) translateY(-6px) rotate(1deg); }
-  30% { transform: translateX(-4px) translateY(-4px) rotate(-1deg); }
-  40% { transform: translateX(4px) translateY(-6px) rotate(1deg); }
-  50% { transform: translateX(-2px) translateY(-4px) rotate(-0.5deg); }
-  60% { transform: translateX(2px) translateY(-6px) rotate(0.5deg); }
-  70% { transform: translateX(-2px) translateY(-4px) rotate(-0.5deg); }
-  80% { transform: translateX(2px) translateY(-6px) rotate(0.5deg); }
-  90% { transform: translateX(-1px) translateY(-4px) rotate(0deg); }
+  0%,
+  100% {
+    transform: translateX(0) translateY(-4px) rotate(0deg);
+  }
+  10% {
+    transform: translateX(-4px) translateY(-4px) rotate(-1deg);
+  }
+  20% {
+    transform: translateX(4px) translateY(-6px) rotate(1deg);
+  }
+  30% {
+    transform: translateX(-4px) translateY(-4px) rotate(-1deg);
+  }
+  40% {
+    transform: translateX(4px) translateY(-6px) rotate(1deg);
+  }
+  50% {
+    transform: translateX(-2px) translateY(-4px) rotate(-0.5deg);
+  }
+  60% {
+    transform: translateX(2px) translateY(-6px) rotate(0.5deg);
+  }
+  70% {
+    transform: translateX(-2px) translateY(-4px) rotate(-0.5deg);
+  }
+  80% {
+    transform: translateX(2px) translateY(-6px) rotate(0.5deg);
+  }
+  90% {
+    transform: translateX(-1px) translateY(-4px) rotate(0deg);
+  }
 }
 
 @keyframes starTwinkle {
-  0%, 100% { 
+  0%,
+  100% {
     opacity: 1;
     filter: brightness(1);
   }
-  50% { 
+  50% {
     opacity: 0.9;
     filter: brightness(1.3);
   }
 }
 
 @keyframes starRotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes confettiBounce {
-  0%, 100% { transform: translateY(-4px) rotate(0deg); }
-  25% { transform: translateY(-12px) rotate(-2deg); }
-  50% { transform: translateY(-4px) rotate(2deg); }
-  75% { transform: translateY(-8px) rotate(-1deg); }
+  0%,
+  100% {
+    transform: translateY(-4px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-12px) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(-4px) rotate(2deg);
+  }
+  75% {
+    transform: translateY(-8px) rotate(-1deg);
+  }
 }
 
 .card-header {
@@ -463,6 +524,63 @@ body {
     padding: 48px 0;
   }
 }
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  color: #94a3b8;
+  font-size: 14px;
+  border-top: 1px solid rgba(148, 163, 184, 0.15);
+  position: relative;
+  z-index: 10;
+}
+
+.footer .heart {
+  color: #ff4d6d;
+  margin: 0 4px;
+  animation: heartbeat 1.2s infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.credits {
+  margin-top: 10px;
+  cursor: pointer;
+  color: #5eead4;
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+}
+
+.credits .credit-name {
+  opacity: 0;
+  margin-left: 10px;
+  color: #e2e8f0;
+  transition: 0.3s ease;
+}
+
+.credits:hover .credit-name {
+  opacity: 1;
+}
+
 .popup {
   position: fixed;
   top: 0;

@@ -3,42 +3,42 @@
     {
       "id": "dk-products",
       "title": "DK Products E-Commerce Website",
-      "content": "### DK Products E-Commerce Website\n\nI built a conceptual e-commerce website for a brand called DK Products. The website includes product listings, categories, a shopping cart, and a checkout interface. This project helped me practice modern frontend development and user experience design.\n\n**Technologies:** HTML, CSS, JavaScript, React"
+      "content": "### DK Products E-Commerce Website\n\nFor my university viva project, I developed a complete e-commerce platform for **DK Products**, a Sri Lankan spice company. The system includes product management, category filtering, shopping cart functionality, and a secure checkout process. I designed both the frontend and backend from scratch, ensuring clean UI, smooth navigation, and strong database performance.\n\nThis project strengthened my skills in **full-stack development, form validation, image uploads, and MySQL database architecture**.\n\n**Technologies:** PHP, MySQL, HTML, CSS, JavaScript"
     },
     {
       "id": "heybuddy",
       "title": "HeyBuddy Chat Application",
-      "content": "### HeyBuddy Chat Application\n\nHeyBuddy is a React-based chat application that allows real-time messaging between users. I implemented real-time notifications, message storage, and a responsive UI.\n\n**Technologies:** React, Node.js, Firebase, WebSocket"
+      "content": "### HeyBuddy Chat Application\n\nHeyBuddy is a real-time chat application I built for my React Native viva. It includes features such as instant messaging, user presence, typing indicators, media sending, and read receipts. I created the backend using **MySQL + PHP**, and the mobile app using **React Native**, designing a modern and responsive interface similar to WhatsApp.\n\nThis project allowed me to work with **real-time communication, optimized queries, and structured backend API development**.\n\n**Technologies:** React Native, PHP, MySQL, WebSockets"
     },
     {
       "id": "lifeline",
       "title": "Lifeline Mental Health App",
-      "content": "### Lifeline Mental Health App\n\nDeveloped with Tecxa, Lifeline is a mental health app aimed at supporting schools and workplaces. It includes mood tracking, counseling resources, and reminders for mental wellness activities.\n\n**Technologies:** React Native, React, Node.js, Tailwind CSS"
+      "content": "### Lifeline Mental Health App\n\nDeveloped in collaboration with **Tecxa's Research & Development Team**, Lifeline is a mental health application created to support schools and workplaces. It provides tools such as mood tracking, counseling modules, wellness reminders, and early-warning indicators.\n\nOur work on Lifeline earned a **Merit Award at the British Computer Society (BCS) – NBQSA National ICT Awards 2024** in the *eHealth & Wellbeing* category.\n\nThis project helped me gain professional experience in **large-scale mobile app development, teamwork, UI/UX design, and mental health–focused software research**.\n\n**Technologies:** React Native, React, Node.js, Tailwind CSS, MySQL"
     },
     {
       "id": "nasa-weather",
       "title": "NASA Space Apps Challenge Weather App",
-      "content": "### NASA Space Apps Challenge Weather App\n\nCreated a weather app for the NASA Space Apps Challenge Colombo 2025. The app predicts weather up to 3 years ahead using advanced algorithms and APIs. We won 1st place and became global nominees.\n\n**Technologies:** React, API, Forecasting, Data Visualization"
+      "content": "### NASA Space Apps Challenge Weather App\n\nOur team developed an advanced weather forecasting app for the **NASA Space Apps Challenge 2025**. The system uses **Prophet AI** for long-term predictions and integrates NASA-powered weather calibration datasets. We built the app with React and Firebase to support smooth, real-time data visualization.\n\nWe won **1st Place in Sri Lanka**, were nominated for NASA's global competition, and made history by becoming the **first-ever Sri Lankan team to reach the Top 40 Global Finalists** among 1290+ international submissions.\n\n**Technologies:** React, Firebase, Prophet AI, NASA APIs"
     },
     {
       "id": "smart-pos",
       "title": "SMART POS System",
-      "content": "### SMART POS System\n\nDeveloped a point-of-sale system for a spice-selling company using Java Swing and MySQL. The system handles sales, inventory management, and report generation.\n\n**Technologies:** Java Swing, MySQL, OOP"
+      "content": "### SMART POS System\n\nAs part of our Software Application Development module, I created a complete **Point-of-Sale (POS) system** designed for retail businesses. The system features:\n\n- Sales and billing\n- Inventory management\n- Supplier tracking\n- Stock alerts\n- Reporting and analytics\n\nAll UI components and layouts were custom-designed by me using **Java Swing**, and the backend was powered by **MySQL**.\n\n**Technologies:** Java Swing, MySQL, OOP"
     },
     {
       "id": "montessori",
       "title": "Montessori Static Website",
-      "content": "### Montessori Static Website\n\nBuilt a static website for a Montessori school showcasing services, staff, and enrollment information. Focused on clean UI and responsive design.\n\n**Technologies:** HTML, CSS, JavaScript"
+      "content": "### Montessori Static Website\n\nI developed a fully responsive, static website for a Montessori school. The site showcases their services, facilities, staff profiles, and enrollment details. My focus was on creating a friendly, clean, and modern interface suitable for parents exploring early-childhood education options.\n\n**Technologies:** HTML, CSS, JavaScript, PHP"
     },
     {
       "id": "unilink",
       "title": "UniLink University App",
-      "content": "### UniLink University App\n\nUniLink allows students to schedule personal lectures with lecturers and communicate through a WhatsApp-like interface for university scenarios. Also includes a React web app for admin to manage users and schedules.\n\n**Technologies:** React, Node.js, Firebase, UI/UX"
+      "content": "### UniLink University App\n\nUniLink is an app designed to connect university students with lecturers more efficiently. Students can book personal academic sessions, chat with lecturers through a WhatsApp-like interface, and manage their schedules. The system also includes a **React web dashboard** for administrators.\n\nThis project won **1st Place at Hacktivate 2025 by NSBM Green University**.\n\n**Technologies:** React Native, React, Node.js, Firebase"
     },
     {
       "id": "smart-drone",
       "title": "Smart Drone Pod App",
-      "content": "### Smart Drone Pod App\n\nLed a group of 8 members to create an app for managing smart drone pods as part of a research project in our degree program. The app includes monitoring, scheduling, and data analytics for drones.\n\n**Technologies:** React, Node.js, IoT, Team Leadership"
+      "content": "### Smart Drone Pod App\n\nAs part of a research project in our degree program, I led an 8-member team to create a mobile application that manages a **smart drone delivery pod** for high-rise buildings. The pod allows drones to land safely, deposit food or medical supplies, and maintain correct internal temperature until users retrieve their items.\n\nThe app controls:\n\n- Pod door automation\n- Delivery tracking\n- Drone landing coordination\n- Real-time IoT sensor monitoring\n\nI handled the complete UI/UX and app development.\n\n**Technologies:** React Native, Node.js, IoT Systems, Team Leadership"
     }
   ]
 }
