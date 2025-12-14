@@ -4,8 +4,8 @@
   "description": "I started coding when I was 10, and in 2021 I began my BSc (Hons) in Software Engineering at the Java Institute for Advanced Technology. I’m from Sri Lanka, and I enjoy building software that solves real problems and experimenting with new technologies along the way.",
   "nav": ["about", "experience", "achievements", "projects"],
   "social": [
-    { "label": "GitHub", "url": "https://github.com" },
-    { "label": "LinkedIn", "url": "https://linkedin.com" },
-    { "label": "Twitter", "url": "https://twitter.com" }
+    { "label": "GitHub", "url": "https://github.com/SinuraWahalathanthri" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/sinuraw/" },
+    { "label": "Twitter", "url": "https://x.com/Sinura_SW" }
   ]
 }
