@@ -3,30 +3,31 @@
     {
       "year": "2021 — Present",
       "title": "BSc (Hons) Software Engineering Student",
-      "description": "Started my BSc (Hons) Software Engineering degree in 2021 and I am continuing it to this day. I have been focusing on full-stack development, software architecture, and modern web technologies.",
+      "description": "I started my BSc (Hons) in Software Engineering in 2021 and I’m still continuing it. Over the years, I’ve mainly worked on full-stack development and learned how real software systems are designed and built using modern web technologies.",
       "tags": ["Java", "JavaScript", "React", "Node.js", "PHP"]
     },
     {
       "year": "2023 — 2025",
       "title": "Research & Development Engineer — Tecxa",
-      "description": "Worked in the research team at Tecxa, developing mental healthcare applications for schools and workplaces. Contributed to UI/UX, mobile development, API integration, and system design.",
+      "description": "I worked as part of the R&D team at Tecxa, where we built mental healthcare applications for schools and workplaces. I was involved in UI/UX design, mobile app development, API integration, and overall system planning.",
       "tags": ["React Native", "React", "Node.js", "Tailwind CSS"]
     },
     {
       "year": "2025 — Present",
       "title": "MPhil Research Student",
-      "description": "Started my MPhil in 2025, focusing on cybersecurity, artificial intelligence, and immersive systems development.",
+      "description": "In 2025, I started my MPhil, where my research mainly focuses on cybersecurity, artificial intelligence, and immersive system development.",
       "tags": ["Cybersecurity", "AI", "Unity"]
     },
     {
       "year": "2025 — Present",
-      "title": "Hack Club Sri Lanka — Club Leader",
-      "description": "Serving as a Hack Club Sri Lanka leader, guiding students in programming, ethical hacking, open-source development, and technical leadership.",
+      "title": "Hack Club Sri Lanka — Club Co-Leader",
+      "description": "I’m currently a co-leader at Hack Club Sri Lanka, where I help students learn programming, ethical hacking, open-source development, and leadership through hands-on projects.",
       "tags": ["Leadership", "Community", "Mentoring"]
-    },{
+    },
+    {
       "year": "2023 — Present",
       "title": "Ceylon XZORA — Team Leader",
-      "description": "Led my team to four back-to-back hackathon championships, with flawless performance every time.",
+      "description": "I lead the Ceylon XZORA team and have guided the team to win four hackathons in a row through strong teamwork, preparation, and execution.",
       "tags": ["Leadership", "Community", "Mentoring"]
     }
   ]

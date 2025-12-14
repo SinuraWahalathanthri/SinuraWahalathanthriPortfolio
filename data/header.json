@@ -1,8 +1,8 @@
 {
   "name": "Sinura Wahalathanthri",
   "title": "Software Engineer & Researcher",
- "description": "I am a 14-year-old software engineer who started coding at age 10 and began my BSc(Hons) Software Engineering degree at the Java Institute for Advanced Technology in 2021. I'm from Sri Lanka and passionate about building innovative software solutions and exploring new technologies.",
-  "nav": ["about", "experience","achievements", "projects"],
+  "description": "I started coding when I was 10, and in 2021 I began my BSc (Hons) in Software Engineering at the Java Institute for Advanced Technology. I’m from Sri Lanka, and I enjoy building software that solves real problems and experimenting with new technologies along the way.",
+  "nav": ["about", "experience", "achievements", "projects"],
   "social": [
     { "label": "GitHub", "url": "https://github.com" },
     { "label": "LinkedIn", "url": "https://linkedin.com" },
